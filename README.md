@@ -9,7 +9,7 @@ This is a [DRF][df1] based simple rest api, modelling subjects, sections and mut
 ### Installation
 
 
-Steps:
+Follow these steps:
 
 ```sh
 $ virtualenv env
