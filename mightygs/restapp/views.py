@@ -16,6 +16,7 @@ def api_root(request, format=None):
     `sections` and other `subject-specific` representations.
     """
     return Response({
+        'dummyhome' : reverse('mgsapp:index', request=request, format=format),
         'questions': reverse('restapp_question_list', request=request, format=format),
         'subjects' : reverse('restapp_subject_list', request=request, format=format),
         'sections' : reverse('restapp_section_list', request=request, format=format),

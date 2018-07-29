@@ -1,0 +1,30 @@
+body { padding-top: 65px; }
+.btn-rounded {
+	border-radius: 25px;
+}
+.fa.fa-navicon {
+	color: #800080;
+
+}
+.navbar {
+	background-color: white;
+}
+.navbar-brand {
+	float: left;
+}
+.contone {
+	height: 100vh;
+	background-color: #00695c;
+}
+.conttwo {
+	height: 100vh;
+	background-color: #cc0000;
+}
+.contthree {
+	height: 100vh;
+	background-color: #37474f;
+}
+.contfour {
+	height: 100vh;
+	background-color: #ff8800
+}

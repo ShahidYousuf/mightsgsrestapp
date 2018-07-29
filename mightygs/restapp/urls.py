@@ -14,9 +14,8 @@ from . import views
     # urls for Django Rest Framework API
 #    url(r'^$', views.api_root),
 #)
-
 urlpatterns = (
-    url(r'^$', views.api_root),
+    url(r'^$', views.api_root, name='restapp'),
     # urls for Question
     url(r'^questions/$', views.QuestionListView.as_view(), name='restapp_question_list'),
     url(r'^questions/(?P<subname>)/$', views.QuestionListView.as_view(), name='restapp_question_list'),
