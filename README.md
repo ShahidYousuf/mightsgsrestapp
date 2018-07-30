@@ -1,5 +1,6 @@
 # MightyGS Rest App
-This is a [DRF][df1] based simple rest api, modelling subjects, sections and mutiple choice questions
+##### Still Under Construction
+This is a [Django][df2] and  [DRF][df1] based simple rest api, modelling subjects, sections and mutiple choice questions. The project also contains mightygs app.
 
 ## Feature endpoints description of the API
   - All subjects, sections and questions seperately
@@ -20,4 +21,5 @@ $ pip install -r requirements.txt
 
   
 [df1]: <http://www.django-rest-framework.org>
+[df2]: <https://www.djangoproject.com>
  
